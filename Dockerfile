@@ -9,7 +9,8 @@ ENV KEYSTORE_PATH=/keys/keystore.jks
 ENV TRUSTSTORE_PATH=/keys/truststore.jks
 ENV SG_CONFIG_PATH=/sgconfig
 ENV WAIT_TIME_SECS=420
-ENV SGADMIN_EXTRA_ARGS='-nhnv -icl -era'
+ENV SGADMIN_EXTRA_ARGS='-nhnv -icl'
+ENV ENABLE_AUTO_SGINDEX_REPLICATE=true
 ENV ES_HOSTNAME=elasticsearch-discovery
 ENV ES_PORT=9300
 
